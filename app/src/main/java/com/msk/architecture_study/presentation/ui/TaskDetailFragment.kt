@@ -13,6 +13,7 @@ class TaskDetailFragment : BaseFragment<FragmentTaskDetailBinding>(R.layout.frag
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_task_detail, container, false)
+        val view = super.onCreateView(inflater, container, savedInstanceState)
+        return view
     }
 }

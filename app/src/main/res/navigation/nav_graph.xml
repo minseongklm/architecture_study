@@ -8,6 +8,19 @@
     <fragment
         android:id="@+id/taskFragment"
         android:name="com.msk.architecture_study.presentation.ui.TaskFragment"
-        android:label="fragment_task"
-        tools:layout="@layout/fragment_task" />
+        android:label="@string/tasks"
+        tools:layout="@layout/fragment_task">
+        <action
+            android:id="@+id/action_taskFragment_to_addEditFragment"
+            app:destination="@id/addEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditFragment"
+        android:name="com.msk.architecture_study.presentation.ui.AddEditFragment"
+        android:label="@string/add_task"
+        tools:layout="@layout/fragment_add_edit">
+        <action
+            android:id="@+id/action_addEditFragment_to_taskFragment"
+            app:destination="@id/taskFragment" />
+    </fragment>
 </navigation>

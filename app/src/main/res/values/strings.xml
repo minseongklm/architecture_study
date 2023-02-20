@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">architecture_study</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Add or Edit Fragment -->
+    <string name="title">Title</string>
+    <string name="description">description</string>
+    <string name="task_add_or_edit_button">task add or edit button </string>
+    <string name="task_add_button">task add button</string>
+
+    <!-- fragment label -->
+    <string name="edit_task">Edit Task</string>
+    <string name="add_task">Add Task</string>
+    <string name="tasks">Tasks</string>
 </resources>

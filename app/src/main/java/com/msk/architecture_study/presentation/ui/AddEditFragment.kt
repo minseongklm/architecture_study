@@ -13,6 +13,7 @@ class AddEditFragment : BaseFragment<FragmentAddEditBinding>(R.layout.fragment_a
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_add_edit, container, false)
+        val view = super.onCreateView(inflater, container, savedInstanceState)
+        return view
     }
 }
