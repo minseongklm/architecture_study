@@ -5,14 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.msk.architecture_study.R
-import com.msk.architecture_study.databinding.FragmentTaskBinding
+import com.msk.architecture_study.databinding.FragmentAddEditBinding
 import com.msk.architecture_study.presentation.base.BaseFragment
 
-class TaskFragment : BaseFragment<FragmentTaskBinding>(R.layout.fragment_task) {
+class AddEditFragment : BaseFragment<FragmentAddEditBinding>(R.layout.fragment_add_edit) {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_task, container, false)
+        return inflater.inflate(R.layout.fragment_add_edit, container, false)
     }
 }
